@@ -3,7 +3,7 @@ from handlers import start_handler, help_handler, add_task_handler, list_tasks_h
 
 def main():
     # Вставьте свой токен
-    application = Application.builder().token("7447545827:AAFf6HxnyeZRhbEGAPpMsS5jDwjzh-AO81o").build()
+    application = Application.builder().token("8086834742:AAGnIpQH7_kLfNh5GvMQmebS8-61AMUrBEM").build()
 
     # Добавляем обработчики
     application.add_handler(start_handler)
